@@ -1,0 +1,8 @@
+*.sdf
+*.pdb
+*.obj
+cocos2d/
+Debug/
+Release/
+x64/
+fonts/

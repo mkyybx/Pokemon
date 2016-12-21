@@ -1,0 +1,66 @@
+﻿生成启动时间为 12/21/2016 01:38:10。
+     1>项目“D:\Pokemon\proj.win32\Pokemon.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\boost_1_62_0 /ID:\Pokemon\cocos2d\cocos\2d\..\..\external /ID:\Pokemon\cocos2d\cocos\2d\..\..\cocos\audio\include /ID:\Pokemon\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\Pokemon\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /ID:\Pokemon\cocos2d\cocos\2d\..\..\cocos /I"D:\Pokemon\cocos2d\cocos\2d\..\..\cocos/editor-support" /ID:\Pokemon\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\Pokemon\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ID:\Pokemon\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /ID:\Pokemon\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /ID:\Pokemon\cocos2d\cocos\2d\..\..\external /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt BattleScene.cpp
+         BattleScene.cpp
+     1>d:\pokemon\proj.win32\pokemon.cpp(193): warning C4305: “+=”: 从“double”到“float”截断
+     1>d:\pokemon\proj.win32\pokemon.cpp(204): warning C4305: “+=”: 从“double”到“float”截断
+     1>d:\pokemon\proj.win32\pokemon.cpp(371): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\pokemon\proj.win32\pokemon.cpp(374): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\pokemon\proj.win32\pokemon.cpp(420): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\pokemon\proj.win32\pokemon.cpp(541): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\pokemon\proj.win32\pokemon.cpp(545): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\pokemon\proj.win32\poplayer.h(16): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\deprecated\ccdeprecated.h(1109) : 参见“cocos2d::String”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\pokemon\proj.win32\battlescene.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\pokemon\proj.win32\battlescene.cpp(211): warning C4996: 'cocos2d::__CCCallFuncND::create': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\2d\ccactioninstant.h(481) : 参见“cocos2d::__CCCallFuncND::create”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(212): warning C4996: 'cocos2d::__CCCallFuncND::create': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\2d\ccactioninstant.h(481) : 参见“cocos2d::__CCCallFuncND::create”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(215): warning C4996: 'cocos2d::__CCCallFuncND::create': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\2d\ccactioninstant.h(481) : 参见“cocos2d::__CCCallFuncND::create”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(216): warning C4996: 'cocos2d::__CCCallFuncND::create': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\2d\ccactioninstant.h(481) : 参见“cocos2d::__CCCallFuncND::create”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(268): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\pokemon\proj.win32\battlescene.cpp(391): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\deprecated\ccdeprecated.h(1109) : 参见“cocos2d::String”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(424): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\deprecated\ccdeprecated.h(1109) : 参见“cocos2d::String”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(434): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\deprecated\ccdeprecated.h(1109) : 参见“cocos2d::String”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(451): warning C4996: 'cocos2d::String': 被声明为已否决
+                 d:\pokemon\cocos2d\cocos\deprecated\ccdeprecated.h(1109) : 参见“cocos2d::String”的声明
+     1>d:\pokemon\proj.win32\battlescene.cpp(477): warning C4305: “参数”: 从“double”到“float”截断
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Pokemon\proj.win32\Debug.win32\Pokemon.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\boost_1_62_0\stage\lib /LIBPATH:D:\Pokemon\proj.win32\Debug.win32\ /LIBPATH:D:\Pokemon\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Pokemon\proj.win32\Debug.win32\Pokemon.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Pokemon\proj.win32\Debug.win32\Pokemon.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\BattleScene.obj
+         Debug.win32\clientNetwork.obj
+         Debug.win32\FightingPokemonLayer.obj
+         Debug.win32\FloatLabel.obj
+         Debug.win32\main.obj
+         Debug.win32\pokemon.obj
+         Debug.win32\PokemonDetails.obj
+         Debug.win32\popLayer.obj
+         Debug.win32\registerLayer.obj
+         Debug.win32\Room.obj
+         Debug.win32\RoomList.obj
+         Debug.win32\SelectAILayer.obj
+         Debug.win32\sha1.obj
+         D:\Pokemon\proj.win32\Debug.win32\libcocos2d.lib
+         D:\Pokemon\proj.win32\Debug.win32\libSpine.lib
+         D:\Pokemon\proj.win32\Debug.win32\libbox2d.lib
+         Pokemon.vcxproj -> D:\Pokemon\proj.win32\Debug.win32\Pokemon.exe
+       CustomBuildStep:
+         if not exist "D:\Pokemon\proj.win32\Debug.win32\" mkdir "D:\Pokemon\proj.win32\Debug.win32\"
+         xcopy "D:\Pokemon\proj.win32\..\Resources" "D:\Pokemon\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         0 File(s) copied
+     1>已完成生成项目“D:\Pokemon\proj.win32\Pokemon.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.60
