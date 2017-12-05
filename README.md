@@ -10,4 +10,6 @@ A fake-Pokemon game with both server and client.
 
 All the directory is designed for the client except for the GameServer directory.
 
-*I cannot recovery my mysql database, so I lost my database schemas though I know it is necessary to commit the database creation scripts.*
+>*I cannot recovery my mysql database, so I lost my database schemas though I know it is necessary to commit the database creation scripts.*
+
+I finally managed to recover the *initpokemon* table and *pokemon* table and update the table creation script.
